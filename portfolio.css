@@ -1,87 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+*{
+  margin : 0;
   padding: 0;
-  background-color: orange;
+  font-family: sans-serif;
+}
+.hero
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, white, #ff8A00);
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
+header
+{
+  padding: 10px 20px;
+  color : #ff8A00;
+  
+}
+.web{
+  font-size: 100px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+nav{
   display: flex;
-  justify-content: space-between;
+  width : 84%;
+  margin: auto;
+  padding: 20px 0;
   align-items: center;
+  justify-content: space-between ;
 }
 
-/* Header styles */
-.web-developer {
-  text-align: left;
-  padding: 50px 100px;
-  flex-grow: 1;
+nav ul li
+{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
 }
 
-.web-developer h2 {
-  margin: 0;
-  color: #e2861c;
-}
-
-/* Navigation styles */
-.navigation {
-  text-align: right;
-  margin-top: 20px;
-}
-
-.navigation a {
+nav ul li a {
   text-decoration: none;
-  color: #008282;
-  margin: 0 10px;
-}
-.button{
-  color: #e2861c;
-}
-/* Main content styles */
-.content {
-  padding: 20px;
+  color: #ff8A00;
+  font-weight: 800;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 30px;
 }
 
-.content h2 {
-  color: #333;
+nav ul li a:hover{
+  color: red;
+
 }
 
-.content h3 {
-  color: #666;
+.detail{
+  margin-left: 8%;
+  margin-top: 13%;
 }
 
-.content h4 {
-  color: #999;
+.detail h2{
+  font-size: 32px ;
+  color: #212121;
+  margin-bottom: 20px;
+  font-family: 'Adamina', serif;
+}
+.detail  h1 {
+  font-size : 48px;
+  color: #ff8A00;
+  margin-bottom: 20px;
+  font-family: 'Lilita One', cursive;
 }
 
-.content p {
-  color: #333;
+
+.detail p{
+  color : #847878;
+  line-height: 22px;
+  font-family: 'Adamina', serif;
+  font-size: 24px;
 }
 
-/* Footer styles */
-.footer {
-  background-color: #f0f0f0;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer p {
-  margin: 5px;
-}
-
-.footer a {
-  color: #333;
+.detail a{
+  background : #ff8A00;
+  padding: 15px 20px ;
   text-decoration: none;
-  margin: 0 5px;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 40px 0;
+  border-radius: 5px;
 }
 
-/* Social media icons */
-.footer img {
-  width: 30px;
-  margin: 0 5px;
+.images
+{
+  width : 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
 }
 
+.images img{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom : 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+
+
+images:hover .girl{
+  left: 45%;
+}
