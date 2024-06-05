@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AneK&display=swap');
 
 *{
   margin : 0;
@@ -50,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-  color: red;
+  color: white;
 
 }
 
@@ -109,8 +110,43 @@ nav ul li a:hover{
   transition: bottom 1s, left 1s;
 }
 
-
-
 images:hover .girl{
   left: 45%;
 }
+.footer-container {
+  margin-top: 20px; /* Add space between footers */
+}
+
+footer {
+  background: linear-gradient(135deg, white, #ff8A00);
+  padding: 10px;
+  display: flex; /* Display children inline */
+  justify-content: space-between;
+}
+
+.footer-item {
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: 15px;
+  margin-right: 150px; /* Add space between items */
+}
+
+.footer-item a {
+  font-family: 'AneK', sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.social-icons {
+  display: flex;
+ 
+
+}
+
+.social-icon {
+  width: 30px; /* Adjust the size of the icons */
+  height: 30px; /* Adjust the size of the icons */
+  margin-left: 10px; /* Add space between icons */
+  justify-content: space-between;
+}
+
+
+
