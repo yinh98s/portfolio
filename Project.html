@@ -2,9 +2,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My project</title>
+  <style>
+     body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, white, #ff8A00);
+  }
+
+  .container {
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 15px; /* Add border radius for rounded corners */
+    
+  }
+
+  .content-box {
+    border: 1px solid #ccc; /* Add border around the content */
+    padding: 20px; /* Add padding inside the content box */
+    margin-bottom: 20px; /* Add space between content boxes */
+    background-color: aliceblue;
+    border-radius: 10px;
+  
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add border around the h4 content */
+    padding: 10px; /* Add padding inside the h4 box */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    display: inline-block; /* Ensure the h4 box doesn't take full width */
+    background-color: #ff8A00;
+    
+  }
+
+  p {
+    line-height: 1.5;
+    text-align: left;
+    justify-content: left;
+  }
+  </style>
 </head>
 <body>
-  <h1>hello me</h1>
+  <button onclick="goBack()">Go Back</button>
+  <div class="container">
+    <div class="content-box">
+      <h4> >>2D -_Game (Using the Gaming API)</h4>
+
+      <ul>
+        <li>Developed a 2D game utilzing the provided gaming API as per the assignment instructions </li>
+        <li>Crafted over 2000+ lines of Java code, using algorithms and data structures to facilitate character movement in four directions: left, right , up , and down</li>
+        <li>Implemented collision detection mechanisms to ensure seamless interaction between avatar and the enviornment which enhanced the gaming xperiences</li>
+        <br>
+        <button>Click here</button>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="content-box">
+      <h4> >> Form-Based web (teamwork)</h4>
+      <ul>
+        <li>Collaborated with a team of 4 students to develop a user-friendly webform allowing users to effectively store, update , remove , and save personal information</li>
+        <li>Developed over 1000+ lines of code using React JS for the frontend Implementation, making sure the webform is intuitive and responsive user interface</li>
+        <li>Ensured an effective connection between the frontend and backend systems by utilizing SpringBoot method</li>
+        <br>
+        <button>Click here</button>
+      </ul>
+
+     
+    </div>
+  </div>
+  <div class="container">
+    <div class="content-box">
+      <h4> >> Web Development Project (Senior Project)</h4>
+      <ul>
+        <li>Collaborated with a team of 4 students to develop a user-friendly webform allowing users to effectively store, update , remove , and save personal information</li>
+        <li>Developed over 1000+ lines of code using React JS for the frontend Implementation, making sure the webform is intuitive and responsive user interface</li>
+        <li>Ensured an effective connection between the frontend and backend systems by utilizing SpringBoot method</li>
+        <br>
+        <button>Click here</button>
+      </ul>
+     
+    </div>
+  </div>
+
+  <script>
+    function goBack() {
+    window.history.back();
+  }
+ </script>
 </body>
 </html>
